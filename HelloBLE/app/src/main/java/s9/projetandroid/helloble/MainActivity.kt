@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import com.google.android.material.snackbar.Snackbar
 import s9.projetandroid.helloble.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -36,6 +37,16 @@ class MainActivity : AppCompatActivity() {
         binding.eseoLoc.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=eseo")))
         }
+
+        binding.localisationButton.setOnClickListener {
+            startActivity(Intent(this, LocalisationActivity::class.java))
+        }
+
+        binding.recyclerButton.setOnClickListener {
+            startActivity(Intent(this, RecyclerActivity::class.java))
+        }
+
+        Snackbar.make(binding.root, "This is a snackbar", Snackbar.LENGTH_LONG).show()
     }
 
     companion object {
