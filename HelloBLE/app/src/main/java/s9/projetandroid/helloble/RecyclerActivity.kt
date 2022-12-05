@@ -1,11 +1,9 @@
 package s9.projetandroid.helloble
 
-import android.os.Binder
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import s9.projetandroid.helloble.databinding.ActivityLocalisationBinding
 import s9.projetandroid.helloble.databinding.ActivityRecyclerBinding
 
 class RecyclerActivity : AppCompatActivity() {
