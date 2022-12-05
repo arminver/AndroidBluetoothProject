@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HelloBLE</string>
+    <string name="hello_eseo">Hello ESEO</string>
+</resources>
