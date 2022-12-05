@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RaspBLE</string>
+    <string name="title_activity_connect">ConnectActivity</string>
+    <string name="title_activity_order">OrderActivity</string>
 </resources>
