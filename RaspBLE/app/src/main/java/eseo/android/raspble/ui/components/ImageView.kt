@@ -1,4 +1,4 @@
-package eseo.android.raspble.components
+package eseo.android.raspble.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.size

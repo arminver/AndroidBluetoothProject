@@ -1,4 +1,4 @@
-package eseo.android.raspble.components
+package eseo.android.raspble.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -16,7 +16,7 @@ import eseo.android.raspble.R
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun Device(
+fun Device4Recycler(
     title: String = "Mon titre",
     content: String = "Mon contenu",
     onClick: () -> Unit = {},
