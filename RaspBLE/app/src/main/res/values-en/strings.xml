@@ -1,12 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">RaspBLE</string>
     <string name="title_activity_connect">ConnectActivity</string>
     <string name="title_activity_order">OrderActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_permission">PermissionActivity</string>
-    <string name="toggle_led">BASCULER LA LED</string>
-    <string name="start_scan">LANCER LE SCAN</string>
-    <string name="deconnection">DECONNEXION</string>
-    <string name="command_via_internet">Commander via Internet</string>
-    <string name="scan_devices">Scanner les périphériques</string>
+    <string name="toggle_led">TOGGLE LED</string>
+    <string name="start_scan">START SCAN</string>
+    <string name="deconnection">DECONNECTION</string>
+    <string name="command_via_internet">COMMAND VIA INTERNET</string>
+    <string name="scan_devices">SCAN DEVICES</string>
 </resources>

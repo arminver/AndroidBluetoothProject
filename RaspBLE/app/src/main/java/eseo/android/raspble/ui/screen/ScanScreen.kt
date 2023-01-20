@@ -7,6 +7,7 @@ import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
@@ -25,11 +26,10 @@ fun ScanScreen(
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-//                        ImageView(Modifier.weight(1f), R.drawable.logo_eseo)
             ImageView(image = R.drawable.logo_eseo)
-            ClickableButton(text = "Commander via Internet")
+            ClickableButton(text = stringResource(R.string.command_via_internet))
             ClickableButton(
-                text = "Scanner les périphériques",
+                text = stringResource(R.string.scan_devices),
                 onClick = {navController.navigate(Screen.Connect.route)}
             )
         }

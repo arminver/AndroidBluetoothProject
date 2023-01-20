@@ -3,11 +3,10 @@ package eseo.android.raspble.ui
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import eseo.android.raspble.ui.Screen
-import eseo.android.raspble.ui.screen.CommandScreen
 import eseo.android.raspble.ui.screen.ConnectScreen
 import eseo.android.raspble.ui.screen.ScanScreen
 
@@ -28,12 +27,7 @@ fun SetupNavGraph(
         composable(
             route = Screen.Connect.route
         ) {
-            ConnectScreen(navController)
-        }
-        composable(
-            route = Screen.Command.route
-        ) {
-            CommandScreen(navController)
+            ConnectScreen(navController, LocalContext.current)
         }
     }
 }
